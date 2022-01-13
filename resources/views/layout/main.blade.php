@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Document</title>
+        <title>Crowdfunding</title>
         <link rel="stylesheet" href="{{asset('libraries/bootstrap/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{asset('css/footer.css')}}">
         <link rel="stylesheet" href="{{asset('css/header.css')}}">
@@ -35,7 +35,7 @@
                       <a class="nav-link" href="{{route('peminjaman.index')}}"> Peminjaman </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"> Forum </a>
+                      <a class="nav-link" href="{{route('forum.index')}}"> Forum </a>
                     </li>
                     @auth
 

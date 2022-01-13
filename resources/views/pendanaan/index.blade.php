@@ -5,25 +5,27 @@
 @endsection
 
 @section('content')
-    
+    @guest
+     
 <section class="banner">
-    <div class="container text-center">
-      <div class="row">
-        <p class="banner-content">
-          Silahkan Masuk Atau Daftar Ke Akun <i>Investor</i> Anda untuk
-          Melihat Pendanaan Yang Sedang Berlangsung Ataupun Yang Telah
-          Berhasil
-        </p>
-        <div class="d-flex justify-content-center align-items-center">
-          <img
-            src="../assets/images/common/Chart_1.png"
-            alt=""
-            class="img-fluid w-50"
-          />
-        </div>
+  <div class="container text-center">
+    <div class="row">
+      <p class="banner-content">
+        Silahkan Masuk Atau Daftar Ke Akun <i>Investor</i> Anda untuk
+        Melihat Pendanaan Yang Sedang Berlangsung Ataupun Yang Telah
+        Berhasil
+      </p>
+      <div class="d-flex justify-content-center align-items-center">
+        <img
+          src="../assets/images/common/Chart_1.png"
+          alt=""
+          class="img-fluid w-50"
+        />
       </div>
     </div>
-  </section>
+  </div>
+</section>   
+    @endguest
   <section class="pendanaan container">
     <h1>Pendanaan Yang Tersedia</h1>
     <div class="row">

@@ -42,6 +42,14 @@ Route::get('/peminjaman', function () {
     return view('peminjaman.index');
 })->name('peminjaman.index');
 
+Route::get('/forum', function() {
+    return view('forum.index');
+})->name('forum.index');
+
+Route::get('/forum/create', function() {
+    return view('forum.create');
+})->name('forum.create');
+
 Route::post('/register/investor', [AuthController::class, 'registerInvestor'])->name('register.investor');
 Route::post('/register/beneficiary', [AuthController::class, 'registerBeneficiary'])->name('register.beneficiary');
 Route::post('/login', [AuthController::class, 'login'])->name('login.action');
