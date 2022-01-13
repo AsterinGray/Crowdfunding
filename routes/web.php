@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/login', function() {
     return view('auth/login');
@@ -40,3 +41,7 @@ Route::get('/pendanaan/1/payment', function() {
 Route::get('/peminjaman', function () {
     return view('peminjaman.index');
 })->name('peminjaman.index');
+
+Route::post('/register/investor', [AuthController::class, 'registerInvestor'])->name('register.investor');
+Route::post('/register/beneficiary', [AuthController::class, 'registerBeneficiary'])->name('register.beneficiary');
+Route::post('/login', [AuthController::class, 'login'])->name('login.action');

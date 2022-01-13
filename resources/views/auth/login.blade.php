@@ -25,22 +25,25 @@
                 </div>
                 <div class="card">
                   <div class="card-title text-center">MASUK</div>
-                  <form action="" class="d-flex flex-column">
-                    <form class="form-group" method="post" action="../home.html">
-                      <label for="username">Username</label>
-                      <input type="text" class="form-control" id="username" />
-                      <div class="invalid-feedback"></div>
-                    </form>
+                  <form class="form-group" method="post" action="{{route('login.action')}}" class="d-flex flex-column">
+                    @csrf
                     <div class="form-group">
-                      <label for="password">Kata Sandi</label>
-                      <input type="password" class="form-control" id="password" />
+                      <label for="username">Username</label>
+                      <input type="text" class="form-control" id="username" name="username" />
                       <div class="invalid-feedback"></div>
                     </div>
-                    <a href="">Lupa Kata Sandi?</a>
+                    <div class="form-group">
+                      <label for="password">Kata Sandi</label>
+                      <input type="password" class="form-control" id="password" name="password" />
+                      <div class="invalid-feedback"></div>
+                    </div>
                     <div class="text-center">
                       <button class="btn" type="submit">Masuk</button>
                     </div>
                   </form>
+                  <div class="d-flex justify-content-center" style="font-style: italic">
+                    Belum punya akun? &nbsp;<a href="{{route('register')}}"> Daftar disini</a>
+                  </div>
                 </div>
               </div>
               <div class="aside col-6 d-none d-xl-block" style="background: url('{{asset('images/pages/auth/background.png')}}')  no-repeat" ></div>

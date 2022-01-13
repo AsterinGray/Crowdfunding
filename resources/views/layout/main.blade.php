@@ -37,16 +37,26 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#"> Forum </a>
                     </li>
-                    <a href="{{route('login')}}"
+                    @auth
+
+                      <li class="nav-item">
+                        <a class="nav-link" style="color: white !important">{{Auth::user()->username}}</a>
+                      </li>
+                    @endauth
+
+                    @guest
+                        
+                      <a href="{{route('login')}}"
                       ><button type="button" class="btn btn-secondary auth-btn">
                         Masuk
                       </button></a
-                    >
-                    <a href="{{route('register')}}"
-                      ><button type="button" class="btn btn-secondary auth-btn">
-                        Daftar
-                      </button></a
-                    >
+                      >
+                      <a href="{{route('register')}}"
+                        ><button type="button" class="btn btn-secondary auth-btn">
+                          Daftar
+                        </button></a
+                      >
+                    @endguest
                   </ul>
                 </div>
               </div>
