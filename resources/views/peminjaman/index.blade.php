@@ -12,11 +12,11 @@
         <div class="card">
           <img
             class="card-img-top"
-            src="../assets/images/pages/pendanaan/Card-img.png"
+            src="https://infopublik.id/assets/upload/headline//rs11.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Pendanaan Usaha Warung Makan Sejahtera</h5>
+            <h5 class="card-title">Pendanaan Usaha Rumah Sakit Bandung</h5>
             <div class="progress">
               <div
                 class="progress-bar bg-warning"
@@ -30,16 +30,16 @@
             <div class="card-text">
               <div>
                 <p class="card-text-sub">Jumlah Pinjaman</p>
-                <p>Rp. 1.000.000.000</p>
+                <p>Rp. 3.000.000.000</p>
               </div>
               <div class="row">
                 <div class="col">
                   <p class="card-text-sub">Bunga Efektif</p>
-                  <p>13.05%</p>
+                  <p>9%</p>
                 </div>
                 <div class="col">
                   <p class="card-text-sub">Tenor</p>
-                  <p>1 Tahun</p>
+                  <p>10 Tahun</p>
                 </div>
               </div>
             </div>
@@ -55,11 +55,11 @@
         <div class="card">
           <img
             class="card-img-top"
-            src="../assets/images/pages/pendanaan/Card-img.png"
+            src="https://www.workmate.asia/static/a7fe202a479af8a887e4eb601e70a9e2/74fd5/9ac67bd5-7f02-4f46-b088-90ac5a31ea9e_shawn-ang-nmpW_WwwVSc-unsplash.jpg"
             alt="Card image cap"
           />
           <div class="card-body">
-            <h5 class="card-title">Pendanaan Usaha Warung Makan Sejahtera</h5>
+            <h5 class="card-title">Pendanaan Usaha Restoran Steak Angke</h5>
             <div class="progress">
               <div
                 class="progress-bar bg-warning"
@@ -73,16 +73,16 @@
             <div class="card-text">
               <div>
                 <p class="card-text-sub">Jumlah Pinjaman</p>
-                <p>Rp. 1.000.000.000</p>
+                <p>Rp. 550.000.000</p>
               </div>
               <div class="row">
                 <div class="col">
                   <p class="card-text-sub">Bunga Efektif</p>
-                  <p>13.05%</p>
+                  <p>12.25%</p>
                 </div>
                 <div class="col">
                   <p class="card-text-sub">Tenor</p>
-                  <p>1 Tahun</p>
+                  <p>3 Tahun</p>
                 </div>
               </div>
             </div>

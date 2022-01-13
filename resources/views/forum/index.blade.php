@@ -7,7 +7,7 @@
 @section('content')
 <div>
     <div class="text-right">
-        <button class="threadBaru" type="submit">Buat Thread</button>
+        <a href="{{route('forum.create')}}"><button class="threadBaru" type="submit">Buat Thread</button></a>
     </div>
 
     <div class="container-fluid text-center">

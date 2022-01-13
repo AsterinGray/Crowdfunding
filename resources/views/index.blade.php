@@ -15,12 +15,13 @@
             Dengan gotong royong kita majukan perekonomian Indonesia dengan
             membantu mereka untuk maju dan berkembang.
           </p>
-          <button
+          <a href="{{route('pendanaan.index')}}">
+            <button
             type="button"
-            class="btn btn-primary btn-text btn-primary-1"
-          >
-            Mulai Danai
-          </button>
+            class="btn btn-primary btn-text btn-primary-1">
+                Mulai Danai
+            </button>
+          </a>
         </div>
         <div class="col-md-6 chart-1">
           <img
@@ -139,5 +140,5 @@
       </div>
     </div>
   </div>
-    
+
 @endsection

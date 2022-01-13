@@ -7,7 +7,7 @@
 @section('content')
 <div>
     <div class="container-fluid text-center">
-        <p class="fs-2 fw-bold"> Forum Form </p>
+        <p class="fs-1 mt-5 fw-bold"> Forum Form </p>
     </div>
 
     <div>

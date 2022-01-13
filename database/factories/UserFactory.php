@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 
 class UserFactory extends Factory
@@ -15,11 +16,17 @@ class UserFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
+            'username' => $this->faker->userName,
+            'fullname' => $this->faker->name,
             'email' => $this->faker->unique()->safeEmail(),
-            'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
-            'remember_token' => Str::random(10),
+            'gender' => $this->faker->randomElement(['Male', 'Female']),
+            'phone' => $this->faker->phoneNumber,
+            'dateofbirth' => $this->faker->date,
+            'placeofbirth' => $this->faker->randomElement(['Jakarta', 'Bali', 'Aceh', 'Papua', 'Bandung', 'Makassar']),
+            'address' => 'Jl. ' . $this->faker->randomElement(['A', 'B', 'C', 'D']) . ' No. ' . $this->faker->numberBetween(1, 39) . ' RT ' . $this->faker->numberBetween(1, 13) . ' RW ' . $this->faker->numberBetween(1, 13) . ' Gang Dugu.',
+            'bankname' => $this->faker->name,
+            'accnumber' => $this->faker->numberBetween(100000000000, 999999999999),
         ];
     }
 

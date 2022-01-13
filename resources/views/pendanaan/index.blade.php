@@ -6,7 +6,7 @@
 
 @section('content')
     @guest
-     
+
 <section class="banner">
   <div class="container text-center">
     <div class="row">
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-</section>   
+</section>
     @endguest
   <section class="pendanaan container">
     <h1>Pendanaan Yang Tersedia</h1>
@@ -40,42 +40,42 @@
     <h1>Pendanaan Yang Berlangsung</h1>
     <div class="row">
       <div class="col-4">
-        <div class="card">
-          <img
-            class="card-img-top"
-            src="../assets/images/pages/pendanaan/Card-img.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Pendanaan Usaha Warung Makan Sejahtera</h5>
-            <div class="progress">
-              <div
-                class="progress-bar bg-warning"
-                role="progressbar"
-                style="width: 25%"
-                aria-valuenow="25"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              ></div>
-            </div>
-            <div class="card-text">
-              <div>
-                <p class="card-text-sub">Jumlah Pinjaman</p>
-                <p>Rp. 1.000.000.000</p>
+        <a href="{{route('pendanaan.view')}}"><div class="card">
+            <img
+              class="card-img-top"
+              src="http://assets.kompasiana.com/items/album/2018/11/11/kita-dan-warung-tetangga-5be8258b43322f56ff72f9d3.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pendanaan Usaha Toko Kelontong Alami</h5>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-warning"
+                  role="progressbar"
+                  style="width: 25%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
-              <div class="row">
-                <div class="col">
-                  <p class="card-text-sub">Bunga Efektif</p>
-                  <p>13.05%</p>
+              <div class="card-text">
+                <div>
+                  <p class="card-text-sub">Jumlah Pinjaman</p>
+                  <p>Rp. 120.000.000</p>
                 </div>
-                <div class="col">
-                  <p class="card-text-sub">Tenor</p>
-                  <p>1 Tahun</p>
+                <div class="row">
+                  <div class="col">
+                    <p class="card-text-sub">Bunga Efektif</p>
+                    <p>5.12%</p>
+                  </div>
+                  <div class="col">
+                    <p class="card-text-sub">Tenor</p>
+                    <p>1 Tahun</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div></a>
       </div>
     </div>
   </section>
@@ -86,7 +86,7 @@
         <div class="card">
           <img
             class="card-img-top"
-            src="../assets/images/pages/pendanaan/Card-img.png"
+            src="https://gobiz.co.id/pusat-pengetahuan/wp-content/uploads/2021/06/membuka-warung-kelontong-1.jpg"
             alt="Card image cap"
           />
           <div class="card-body">

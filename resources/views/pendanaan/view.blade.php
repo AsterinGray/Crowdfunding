@@ -10,7 +10,7 @@
       <!-- Business Photo -->
       <div class="col-lg-5 header-photo">
         <img
-          src="{{asset('images/common/Business-image/business-photo.jpeg')}}"
+          src="{{asset('http://assets.kompasiana.com/items/album/2018/11/11/kita-dan-warung-tetangga-5be8258b43322f56ff72f9d3.jpg')}}"
           alt=""
           width="70%"
         />
@@ -19,16 +19,16 @@
       <div class="col-lg-7 business-banner-info">
         <div class="row text-center business-banner-headline">
           <div class="col-lg-9 col-xs-9">
-            <label for="" class="fs-2"> Business Title Here! </label>
+            <label for="" class="fs-2">Pendanaan Usaha Toko Kelontong Alami</label>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-lg-12 progress-view">
             <p class="text-muted">
               Telah terkumpul dana sebesar
-              <label class="data-view" for=""> persentase </label>% dengan
+              <label class="data-view" for=""> 13% </label> dengan
               total Rp<label class="data-view" for="">
-                Nominal Yang Sudah Dipinjamkan </label
+                15.600.000 </label
               >.
             </p>
           </div>
@@ -38,20 +38,20 @@
             <p class="fs-5">Jumlah pinjaman</p>
             <p class="fs-5 fw-bold">
               Rp<label class="data-view" for="">
-                Nominal Target Pinjaman </label
+                120.000.000 </label
               >,-
             </p>
           </div>
           <div class="col-lg-4">
             <p class="fs-5">Bunga Efektif</p>
             <p class="fs-5 fw-bold">
-              <label class="data-view" for="">Persentase</label>%
+              <label class="data-view" for="">5</label>%
             </p>
           </div>
           <div class="col-lg-3">
             <p class="fs-5">Tenor</p>
             <p class="fs-5 fw-bold">
-              <label class="data-view" for=""> lama </label> Bulan
+              <label class="data-view" for=""> 1 </label> Tahun
             </p>
           </div>
         </div>
@@ -66,14 +66,14 @@
         <p class="fs-4">
           Rp
           <label for="" class="data-view">
-            Nominal Yang Sudah Dipinjamkan </label
+            15.600.000 </label
           >,-
         </p>
       </div>
       <div class="col-lg-7 info-box">
         <a
           class="btn btn-primary"
-          href="../pages/pendanaanNominal.html"
+          href="{{route('pendanaan.payment')}}"
           role="button"
         >
           Ajukan Pendanaan
@@ -109,19 +109,19 @@
             <div class="col text-area">
               <p class="fs-6 fw-bold">Awal Pendanaan</p>
               <p class="fs-5">
-                <label class="data-view" for=""> Tanggal Awal </label>
+                <label class="data-view" for=""> 25 November 2021 </label>
               </p>
             </div>
             <div class="col text-area">
               <p class="fs-6 fw-bold">Akhir Pendanaan</p>
               <p class="fs-5">
-                <label class="data-view" for=""> Tanggal Akhir </label>
+                <label class="data-view" for=""> 25 November 2022 </label>
               </p>
             </div>
             <div class="col text-area">
               <p class="fs-6 fw-bold">Bunga Efektif</p>
               <p class="fs-5">
-                <label class="data-view" for=""> Persentase </label>
+                <label class="data-view" for=""> 5% </label>
               </p>
             </div>
           </div>
@@ -131,12 +131,12 @@
         <div class="tab-detail border g-0 rounded shadow-sm">
           <p class="fw-bold">Keterangan Usaha</p>
           <p>
-            Warung Makan Bude adalah warung yang menyediakan makanan
-            tradisional nusantara dengan harga yang terjangkau. Warung ini
-            selalu dipenuhi oleh pelanggan yang sebagi besar merupakan
-            pengedara ojek online. Pada setiap jam makan, kita selalu
-            menghidangkan makanan yang baru dimasak dari dapur dengan
-            mementingkan kebersihan. Kenyamanan pelanggan juga selalu
+            Toko Kelontong Alami adalah toko yang menyediakan berbagai
+            macam barang dengan harga yang terjangkau. Toko ini
+            selalu dipenuhi oleh pelanggan yang sebagian besar merupakan
+            pengedara ojek online. Pada setiap siang, kita selalu
+            memasok barang yang baru disupply dari pabrik dengan
+            mementingkan kualitas. Kenyamanan pelanggan juga selalu
             diperhatikan oleh kami.
           </p>
           <div class="d-flex justify-content-between align-items-center">
@@ -146,11 +146,11 @@
             </div>
             <div>
               <p class="fw-bold">Pendapatan Kotor per Bulan</p>
-              <p>Rp. 15.000.000</p>
+              <p>Rp. 5.000.000</p>
             </div>
             <div>
               <p class="fw-bold">Pendapatan Bersih per Bulan</p>
-              <p>Rp. 10.000.000</p>
+              <p>Rp. 3.000.000</p>
             </div>
           </div>
         </div>
